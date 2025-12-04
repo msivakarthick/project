@@ -1,0 +1,270 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.home{
+  width:100%;
+}
+.fix{
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  top:0;
+  background-color:steelblue;
+}
+.overall{
+  /* display: flex;
+  justify-content: space-evenly; */
+  z-index: 999;
+}
+ /* nav{
+  z-index: 9999;
+ } */
+.chick{
+  display: flex;
+}
+.chick img{
+  height: 60px;
+  width: 60px;
+}
+img{
+  z-index: -1;
+}
+.chick h2{
+  margin-top: 15px;
+}
+.loc{
+  display: flex;
+}
+.loc i{
+  margin-top: 10px;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.add p{
+  margin-bottom: 0px;
+}
+.variety{
+  display: flex;
+  width:80%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.chicken p,.cow p,.pig p,.fish p,.goat p{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.food{
+  width: 50%;
+  position: relative;
+  margin-right: 10%;
+  
+}
+.food1{
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+.food2{
+    position: absolute;
+    top: 0px;
+    left: 232px;
+}
+.food3{
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+.food3{
+    position: absolute;
+    top: 135px;
+    left: 228px;
+    height: 157px;
+    width: 200px;
+}
+.food4{
+  height: 195px;
+    width: 275px;
+    position: absolute;
+    top: 0px;
+    left: 638px;
+}
+.food5{
+    position: absolute;
+    top: 200px;
+    left: 638px;
+}
+.food6{
+    height: 157px;
+    width: 200px;
+    position: absolute;
+    top: 134px;
+    left: 433px;
+}
+.product{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+  margin-bottom:200px ;
+}
+.pro{
+  display: flex;
+  justify-content: space-evenly;
+}
+.para1{
+  width:30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.rotate{
+  width:50%;
+  height:400px;
+} 
+.box{
+  width:25%;
+}
+.service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.boxes{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.box h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.shop{
+  display: flex;
+  justify-content: space-evenly;
+}
+.shop1{
+  width:20%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+.loca{
+  position: absolute;
+  top:10px;
+  left: 20px;
+  font-size: 20px;
+}
+.vela{
+  position: absolute;
+  bottom:35px;
+  right: 20px;
+  font-size: 20px;
+}
+.shop1 button{
+  border: none;
+  background-image: linear-gradient(to left, blue, purple, deeppink);
+  color: white;
+  width: 70%;
+  padding: 7px;
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-top: 10px;
+}
+.but{
+  display: flex;
+  margin-left: 80%;
+  margin-top: 20px;
+}
+.but i{
+  font-size: 50px;
+  color: orange;
+}
+.but button{
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+}
+.icon i{
+  font-size: 30px;
+  margin-right: 20px;
+  color: white;
+}
+.last{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 400px;
+}
+.last img{
+  height:200px;
+  width:200px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.second h5{
+  color: white;
+}
+.bor{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.table{
+  position: absolute;
+  height: 650px;
+  width:650px;
+}
+iframe{
+  position: relative;
+  top:0px;
+  left: 0px;
+  height:1000px;
+  overflow: hidden;
+  width:1000px;
+  z-index: -1;
+
+}
+/* .white{
+    height: 300px;
+    width: 654px;
+    background-color: purple;
+    position: absolute;
+    z-index: -1;
+    top: 161px;
+    left: 94px;
+
+} */
